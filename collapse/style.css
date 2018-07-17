@@ -1,0 +1,35 @@
+.accordion {
+   background-color: orchid;
+   color: white;
+   padding: 17px;
+   width: 100vw;
+   text-align: center;
+   border: none;
+   outline: none;
+   font-size: 30px;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+
+
+.active,.accordion:hover {
+   background-color: white;
+   color: black;
+}
+
+.inside_content {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+  
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+     background-color: orchid;
+     border-radius: 5px;
+     border:2px solid black;
+     margin-bottom: 10px;
+}
